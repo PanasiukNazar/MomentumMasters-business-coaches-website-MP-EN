@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>MomentumMasters</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="" />
+
+        <!-- Facebook and Twitter integration -->
+        <meta property="og:title" content="" />
+        <meta property="og:image" content="" />
+        <meta property="og:url" content="" />
+        <meta property="og:site_name" content="" />
+        <meta property="og:description" content="" />
+        <meta name="twitter:title" content="" />
+        <meta name="twitter:image" content="" />
+        <meta name="twitter:url" content="" />
+        <meta name="twitter:card" content="" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700"
+            rel="stylesheet"
+        />
+
+        <!-- Favicon -->
+        <link href="images/favicon.ico" rel="icon" />
+
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="css/animate.css" />
+        <!-- Icomoon Icon Fonts-->
+        <link rel="stylesheet" href="css/icomoon.css" />
+        <!-- Bootstrap  -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="css/magnific-popup.css" />
+
+        <!-- Owl Carousel  -->
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+        <!-- Flexslider  -->
+        <link rel="stylesheet" href="css/flexslider.css" />
+        <!-- Flaticons  -->
+        <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+
+        <!-- Theme style  -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- Modernizr JS -->
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <!-- FOR IE9 below -->
+        <!--[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="colorlib-loader"></div>
+
+        <div id="page">
+            <nav class="colorlib-nav" role="navigation">
+                <div class="top-menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <div id="colorlib-logo">
+                                    <a href="index.html"
+                                        >Momentum<span>Masters.</span></a
+                                    >
+                                </div>
+                            </div>
+                            <div class="col-md-10 text-right menu-1">
+                                <ul>
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="service.html">Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="testimonials.html"
+                                            >Testimonials</a
+                                        >
+                                    </li>
+                                    <li class="active">
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <aside id="colorlib-hero" class="js-fullheight">
+                <div class="flexslider js-fullheight">
+                    <ul class="slides">
+                        <li style="background-image: url(images/img_bg_6.jpg)">
+                            <div class="overlay-gradient"></div>
+                            <div class="container">
+                                <div
+                                    class="col-md-10 col-md-offset-1 text-center js-fullheight slider-text"
+                                >
+                                    <div class="slider-text-inner desc">
+                                        <h2 class="heading-section">
+                                            Contact Us
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <div id="colorlib-contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-md-push-1 animate-box">
+                            <div class="colorlib-contact-info">
+                                <h3>Contact Information</h3>
+                                <ul>
+                                    <li class="address">
+                                        5 Avenue Mvog Fouda Ada,<br />
+                                        Yaoundé, South Africa
+                                    </li>
+                                    <li class="phone">
+                                        <a href="tel://1234567920"
+                                            >+27118024768</a
+                                        >
+                                    </li>
+                                    <li class="email">
+                                        <a href="mailto:momentum_m@gmail.com"
+                                            >momentum_m@gmail.com</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6 animate-box">
+                            <h3>Send A Message</h3>
+                            <form action="#">
+                                <div class="row form-group">
+                                    <div class="col-md-6">
+                                        <input
+                                            type="text"
+                                            id="fname"
+                                            class="form-control"
+                                            placeholder="Your firstname"
+                                        />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input
+                                            type="text"
+                                            id="lname"
+                                            class="form-control"
+                                            placeholder="Your lastname"
+                                        />
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col-md-12">
+                                        <input
+                                            type="text"
+                                            id="email"
+                                            class="form-control"
+                                            placeholder="Your email address"
+                                        />
+                                        <div
+                                            id="result"
+                                            style="color: red; font-size: 12px"
+                                        ></div>
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col-md-12">
+                                        <textarea
+                                            name="message"
+                                            id="message"
+                                            cols="30"
+                                            rows="10"
+                                            class="form-control"
+                                            placeholder="Tell us about your business coaching needs"
+                                        ></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input
+                                        type="submit"
+                                        value="Send Message"
+                                        class="btn btn-primary"
+                                        id="submit"
+                                        onclick="sendForm()"
+                                    />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="map" class="colorlib-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d72182.83304068951!2d11.519564749548795!3d3.8709489507175983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x108bcfc2c7dc70b3%3A0x1c240f764ef56e5f!2sAfrica%20Business%20Center!5e0!3m2!1suk!2sua!4v1735037458498!5m2!1suk!2sua"
+                    width="100%"
+                    height="100%"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+            </div>
+
+            <footer id="colorlib-footer" role="contentinfo">
+                <div class="container">
+                    <div class="row row-pb-md">
+                        <div class="col-md-3 colorlib-widget">
+                            <h4>MomentumMasters</h4>
+                            <p>
+                                Thank you for visiting our website! We are
+                                dedicated to providing you with personalized
+                                coaching services designed to empower business
+                                owners, entrepreneurs, and executives to reach
+                                their full potential and achieve sustained
+                                success.
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-md-push-1">
+                            <h4>Navigation</h4>
+                            <ul class="colorlib-footer-links">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
+                                <li>
+                                    <a href="privacy-policy.html">Privacy</a>
+                                </li>
+                                <li>
+                                    <a href="terms-of-use.html">Terms of use</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 col-md-push-1">
+                            <h4>Contact Information</h4>
+                            <ul class="colorlib-footer-links">
+                                <li>
+                                    5 Avenue Mvog Fouda Ada, Yaoundé, South
+                                    Africa
+                                </li>
+                                <li>
+                                    <a href="tel://1234567920">+27118024768</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info@yoursite.com"
+                                        >momentum_m@gmail.com</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-3 col-md-push-1">
+                            <h4>Opening Hours</h4>
+                            <ul class="colorlib-footer-links">
+                                <li>Mon - Thu: 9:00 - 21 00</li>
+                                <li>Fri 8:00 - 21 00</li>
+                                <li>Sat 9:30 - 15: 00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <div class="gototop js-top">
+            <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+        </div>
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a superior and
+                    more relevant browsing experience on the site.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script>
+        <!-- jQuery Easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Waypoints -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <!-- Stellar Parallax -->
+        <script src="js/jquery.stellar.min.js"></script>
+        <!-- Carousel -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- Flexslider -->
+        <script src="js/jquery.flexslider-min.js"></script>
+        <!-- countTo -->
+        <script src="js/jquery.countTo.js"></script>
+        <!-- Magnific Popup -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/magnific-popup-options.js"></script>
+        <!-- Main -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script src="js/contact-form.js"></script>
+    </body>
+</html>
